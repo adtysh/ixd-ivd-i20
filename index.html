@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap 5 Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://code.highcharts.com/highcharts.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://code.highcharts.com/modules/streamgraph.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://code.highcharts.com/modules/series-label.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://code.highcharts.com/modules/annotations.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://code.highcharts.com/modules/exporting.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://code.highcharts.com/modules/export-data.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://code.highcharts.com/modules/accessibility.js"
+    ></script>
+  </head>
+  <body>
+    <h1 id="hd1">National Budget for Space Explorations :  NASA</h1>
+    <p id="paragraph">The National Aeronautics and Space Administration (NASA) is a governmental organisation responsible for the civilian space programme, as well as aeronautics and space research in the United States. The National Advisory Committee for Aeronautics was replaced by NASA in 1958. (NACA). supporting the use of space science for peaceful purposes Since its founding, NASA has been in charge of the majority of US space exploration operations, including the Moon, Mars, Venus, other tiny bodies, mercury, and other plants.
+
+    From 1959 to the present, NASA has spent a significant amount of money on numerous space initiatives and research.
+    This comprehensive, annualised dataset enables for more accurate inflation adjustments and direct comparisons of past and current planetary exploration efforts by NASA. It also allows for the investigation of altering national priorities in space exploration, spending by destination, significant programme responsibilities, research, launch costs, and other topics.</p><br>
+
+    <p>In general, the information is divided into three categories: summaries, missions, and fiscal years.
+
+    <br><br><b>Tabs that combine raw data are called summaries:</b><br><br>
+    
+    <li><b>Mission Costs:</b> a complete list of annual spending for all planetary scientific missions from 1960 to the present (inflation adjusted). <br><br></li>
+    
+    <li><b>Budgetary Tenure of Planetary Science:</b> total funding requested by the White House and actually spent by NASA during the program's history.
+    These are weakly normalised in order to ensure accounting consistency by including launch costs for significant programmes at all times.</li><br>
+    
+    <li><b> History:</b> the same data as the preceding sheet, but using NASA's New Start Index to compensate for inflation (NNSI).</li><br>
+    
+    <li><b>Funding by Destination:</b> total spending each year for important solar system destinations, adjusted for inflation. </li><br>
+    
+    <li><b>Key Programs:</b> budget totals for major planetary flight programmes, including Mariner, Discovery, New Frontiers, Mars Exploration Program, and others, by year since the 1990s. </li><br><br>
+    
+    <b>Comparisons of destination and total funding for the planetary science decadal survey periods of 2013-2022, 2003-2012, and analogous periods dating back to the 1960s.</b><br><br>
+    
+    Mission tab contains every NASA planetary research mission has extensive annual budget tabs that break down costs by formulation, development, operations, and launch.
+    
+    <br><br>Fiscal year tab contains the total planetary science division programme funds, both those requested by the White House and those finally obligated by NASA. This is the raw data that was utilised to create the majority of the other sheets in this collection, and it closely matches the actual accounting provided in each year's budget estimates.
+    <br><br>
+
+    </p>
+    <p> <b>Graph 1 : Costs of development and operations for NASA planetary scientific missions, classified by primary destination and adjusted for inflation.
+    </b></p>
+
+    <figure class="highcharts-figure">
+      <div id="container"></div>
+    </figure>
+    <p><b>'s New Start Index was used to account for inflation. Casey Dreier created the Space Science Budget Dataset.</b></p>
+    
+    <p> <b>Graph 2 : NASA's spending for major program during the Golden Age based on Ranger, Lunar Orbiter, Pioneer etc  </b></p>
+
+    <div id="graph2" style="height : 500px; border-style: solid;
+    border-width: .5px"></div>
+
+    
+ 
+  </body>
+</html>
